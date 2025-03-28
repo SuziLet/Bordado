@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Punto de Venta</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+    <div class="productos-container">
+        <h2>Productos</h2>
+        <div class="productos-list">
+            <div class="producto">
+                <img src="https://www.cursos.artesdeolga.com/wp-content/uploads/2015/12/curso-bordado.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p class="precio">$100</p>
+                <button class="agregar-btn" data-id="1">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://almaceneslacostura.com/wp-content/uploads/2020/08/bordar-flores-con-aguja-magica-la-costura-e1597992950176.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p class="precio">$200</p>
+                <button class="agregar-btn" data-id="2">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://i.pinimg.com/236x/5c/99/b0/5c99b0b9f48a7ca8968408afefcf499a.jpg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p class="precio">$300</p>
+                <button class="agregar-btn" data-id="3">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito-container">
+            <h3>Carrito</h3>
+            <ul id="carrito-list">
+               
+            </ul>
+            <p>Total: <span id="total">$0</span></p>
+            <button id="vaciarCarrito">Vaciar Carrito</button>
+        </div>
+    </div>
+
+    <script src="productos.js"></script>
+</body>
+</html>
